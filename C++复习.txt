@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//注释
+	/*
+	 *	这也是注释
+	*/
+
+	cout<<"Hello world";
+	return 0;
+}
+
+
+C++基本数据类型
+bool，char,int float,double,void,wchar_t
+
+
+枚举
+enum color { red,green,blue} c;
+c = blue;
+
+enum color{ red,green = 5,blue} c;
+
+
+声明指针
+int* p = &x;
+解引用
+*p = 20;//改变指针指向位置的值，原数据也发生了改变
+
